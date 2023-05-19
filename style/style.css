@@ -1,0 +1,32 @@
+:root{
+    --principal:#613C97;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--principal);
+    height: 50px;
+}
+
+header img{
+    height: 50px;
+}
+
+header svg{
+    height: 40px;
+}
+
+.cabecario{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+main img{
+    height: 710px;
+}
