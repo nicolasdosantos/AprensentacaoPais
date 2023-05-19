@@ -1,5 +1,5 @@
-:root{
-    --principal:#613C97;
+:root {
+    --principal: #613C97;
 }
 
 * {
@@ -8,25 +8,37 @@
     text-decoration: none;
 }
 
-header{
+header {
     background-color: var(--principal);
+}
+
+header img {
     height: 50px;
 }
 
-header img{
-    height: 50px;
-}
-
-header svg{
+header svg {
     height: 40px;
 }
 
-.cabecario{
+.cabecario {
     display: flex;
     justify-content: space-between;
     padding: 8px;
 }
 
-main img{
+main img {
     height: 710px;
+}
+
+main .bg {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(../img/Bem-vindo\ à\ Birigui!.png);
+    background-position: center;
+    background-size: cover;
+}
+
+main .baixo {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 43%, rgba(124,42,232,0.6952906162464986) 92%);
 }
