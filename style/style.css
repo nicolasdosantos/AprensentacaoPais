@@ -42,4 +42,6 @@ main .bg {
 main .baixo h1{
     text-align: center;
     padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
 }
