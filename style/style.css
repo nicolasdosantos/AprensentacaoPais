@@ -1,5 +1,6 @@
 :root {
     --principal: #613C97;
+    --fundo-icone: rgba(59, 180, 234, 0.2);
 }
 
 * {
@@ -44,4 +45,30 @@ main .baixo h1{
     padding: 15px;
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
+}
+/* ----------- MAIN PARTE DE BAIXO ---------- */
+
+.meio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+main .meio svg{
+    width: 50px;
+
+}
+
+main .meio .icone{
+    width: 80px;
+    height: 80px;
+    border: 5px solid #613c97;
+    background-color: var(--fundo-icone);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
 }
