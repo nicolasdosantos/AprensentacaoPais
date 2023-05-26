@@ -17,7 +17,7 @@ header img {
     height: 50px;
 }
 
-header svg {
+header .cabecario svg{
     height: 40px;
     color: white;
 }
@@ -81,4 +81,20 @@ main .meio p{
 
 main .meio h3{
     font-family: 'Quicksand', sans-serif;
+}
+
+/* ------------ FOOLTER PAGINA INICIAL --------------- */
+
+.footer {
+    background-color: var(--principal);
+    width: 100%;
+    height: 33px;
+}
+
+.footer p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
 }
