@@ -17,7 +17,7 @@ header img {
     height: 50px;
 }
 
-header .cabecario svg{
+header .cabecario svg {
     height: 40px;
     color: white;
 }
@@ -40,15 +40,16 @@ main .bg {
     background-size: cover;
 }
 
-main .baixo h1{
+main .baixo h1 {
     text-align: center;
     padding: 15px;
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
 }
+
 /* ----------- MAIN PARTE DE BAIXO ---------- */
 
-.meio{
+.meio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 55px;
@@ -57,12 +58,12 @@ main .baixo h1{
     text-align: center;
 }
 
-main .meio svg{
+main .meio svg {
     width: 40px;
 
 }
 
-main .meio .icone{
+main .meio .icone {
     width: 70px;
     height: 70px;
     border: 5px solid #613c97;
@@ -75,11 +76,11 @@ main .meio .icone{
     margin: auto;
 }
 
-main .meio p{
+main .meio p {
     font-family: 'Quicksand', sans-serif;
 }
 
-main .meio h3{
+main .meio h3 {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -91,10 +92,13 @@ main .meio h3{
     height: 33px;
 }
 
-.footer p{
+.footer p {
     color: white;
-    font-family: 'Quicksand', sans-serif;;
+    font-family: 'Quicksand', sans-serif;
+    ;
     text-align: left;
     padding: 5px;
     font-size: 15px;
 }
+
+/* ------------ TESTE  ------------- */
