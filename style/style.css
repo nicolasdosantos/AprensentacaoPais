@@ -51,24 +51,34 @@ main .baixo h1{
 .meio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 55px;
     margin: 30px;
     align-items: center;
     text-align: center;
 }
 
 main .meio svg{
-    width: 50px;
+    width: 40px;
 
 }
 
 main .meio .icone{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border: 5px solid #613c97;
     background-color: var(--fundo-icone);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+main .meio p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+main .meio h3{
+    font-family: 'Quicksand', sans-serif;
 }
