@@ -106,14 +106,14 @@ main .baixo h1 {
 .meio .meio-direita{
     border: 5px solid black;
     border-radius: 30px;
-    padding: 10px;
     transition: 0.5s ease-in;
+    padding: 10px;
 }
 
 .meio .meio-direita:hover{
     border: 5px solid black;
     border-radius: 30px;
-    padding: 15 px;
+    padding: 15px;
     box-shadow: 5px 5px 5px 5px #000000a1;
 }
 
