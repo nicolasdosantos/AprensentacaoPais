@@ -191,16 +191,38 @@ main .meio h3 {
 
 .carrosel img{
     height: 20vh;
+    padding: 20px;
 }
 
 .imagem img{
-    height: 20vh;
+    height: 50vh;
 }
 
-.imagem{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 50px;
+.imagem {
+    padding: 80px;
     gap: 10px;
     margin-left: 20px;
+}
+
+
+.owl-carousel .owl-item img {
+    width: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    color: #fff !important;
+    font-size: 46px;
+    position: absolute;
+    top: 35px;
+    right: 13px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    color: #fff !important;
+    font-size: 46px;
+    position: absolute;
+    top: 35px;
+    left: 13px;
 }
