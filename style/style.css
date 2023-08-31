@@ -164,6 +164,43 @@ main .meio h3 {
     font-size: 15px;
 }
 
-/* ------------ TESTE  ------------- */
+/* ----------------------------- PARTE DA SEGUNDA PAGINA  ----------------------------- */
 
- 
+.separacao{
+    background-color: white;
+    padding: 1px;
+}
+
+#proxima .cabecario {
+    background-color: black;
+}
+
+.cabecario .casa img{
+    height: 40px;
+    color: white;
+    margin: 10px;
+}
+
+.carrosel{
+    width: 100%;
+    background-image: url(../img/Carrosel-fundo.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 6px 6px 6px 6px #000000a1;
+}
+
+.carrosel img{
+    height: 20vh;
+}
+
+.imagem img{
+    height: 20vh;
+}
+
+.imagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    gap: 10px;
+    margin-left: 20px;
+}
