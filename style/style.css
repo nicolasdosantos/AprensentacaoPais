@@ -8,7 +8,9 @@
     padding: 0px;
     text-decoration: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 header {
     background-color: transparent;
 }
@@ -29,13 +31,10 @@ header .cabecario svg {
     padding: 8px;
 }
 
-/* #conteudo {
-    display: none;
-} */
 
-main img {
+/* main img {
     height: 710px;
-}
+} */
 
 main .itens img{
     height: 40px;
@@ -59,7 +58,7 @@ main .bg {
 
 main .baixo h1 {
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
 }
@@ -151,7 +150,6 @@ main .meio h3 {
 
 .footer {
     background-color:black;
-    width: 100%;
     height: 33px;
 }
 
@@ -164,6 +162,10 @@ main .meio h3 {
     font-size: 15px;
 }
 
+.footer span{
+    height: 50px;
+}
+
 /* ----------------------------- PARTE DA SEGUNDA PAGINA  ----------------------------- */
 
 .separacao{
@@ -171,15 +173,25 @@ main .meio h3 {
     padding: 1px;
 }
 
-#proxima .cabecario {
-    background-color: black;
+#conteudo {
+    display: none;
 }
 
-.cabecario .casa img{
+
+.cabecario {
+    background-color: black;
+    box-shadow: 6px 6px 6px 6px #000000a1;
+}
+
+.cabecario img{
     height: 40px;
     color: white;
     margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
 }
+
 
 .carrosel{
     width: 100%;
@@ -194,6 +206,8 @@ main .meio h3 {
     padding: 20px;
 }
 
+
+
 .imagem img{
     height: 50vh;
 }
@@ -203,6 +217,7 @@ main .meio h3 {
     gap: 10px;
     margin-left: 20px;
 }
+
 
 
 .owl-carousel .owl-item img {
@@ -215,7 +230,7 @@ main .meio h3 {
     color: #fff !important;
     font-size: 46px;
     position: absolute;
-    top: 35px;
+    top: 50px;
     right: 13px;
 }
 
@@ -223,6 +238,108 @@ main .meio h3 {
     color: #fff !important;
     font-size: 46px;
     position: absolute;
-    top: 35px;
+    top: 50px;
     left: 13px;
 }
+
+
+/* ------------------------------ Parte da Imagens ------------------------------*/
+.imagem{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+
+.img-amor{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+
+.img-amor p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-abraco{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 40px;
+}
+
+.img-abraco p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-esporte{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 40px;
+}
+
+.img-esporte p{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.img-parque{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 40px;
+}
+
+.img-parque p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-perola{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+
+.img-perola p{
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 55x;
+}
+
+.img-guarana{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 40px;
+}
+
+.img-guarana p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-fabrica{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+
+.img-fabrica p{
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 55x;
+}
+
+.img-laco{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 40px;
+}
+
+.img-laco p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.hideme
+{
+    opacity:0;
+}
+
